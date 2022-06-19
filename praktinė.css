@@ -8,7 +8,7 @@ body {
 }
 .container{
     max-width: 45%;
-    max-height: 40%;
+    max-height: 35%;
     margin: 200px auto;
     background: white;
     padding: 20px;
@@ -19,12 +19,14 @@ body {
     
 }
 .text img {
-    width: 120px;
-    height: 120px;
+    width: 110px;
+    height: 100px;
     align-items: center;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-top: 15px;
     padding: 15px;
+    filter: invert(100%)
+    
     
 }
 .text h1 {
@@ -32,12 +34,15 @@ body {
     color: #e05e46;
     text-transform: uppercase;
     text-align: center;
+    line-height: 14px;
 }
 .text p {
     text-align: center;
-    font-size: 10px;
+    font-size: 8px;
     color: grey;
-    padding: 10px;
+    line-height: 14px;
+    
+   
 }
 .image1 {
     background-color: #70c0c9;
@@ -51,4 +56,54 @@ body {
 .image4 {
     background-color: #919191;
 }
-
+.space {
+    padding: 0px 20px;
+}
+.number1 {
+    border: 3px solid #70c0c9;
+    border-radius: 50%;
+    width: 30px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    right: 10px;
+    background: white;
+    color: #70c0c9;
+    font-weight: bold;
+}
+.number2 {
+    border: 3px solid #4074bd;
+    border-radius: 50%;
+    width: 30px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    right: 10px;
+    background: white;
+    color: #4074bd;
+    font-weight: bold;
+}
+.number3 {
+    border: 3px solid #e05e46;
+    border-radius: 50%;
+    width: 30px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    right: 10px;
+    background: white;
+    color: #e05e46;
+    font-weight: bold;
+}
+.number4 {
+    border: 3px solid #919191;
+    border-radius: 50%;
+    width: 30px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    right: 10px;
+    background: white;
+    color: #919191;
+    font-weight: bold;
+}
